@@ -1,0 +1,15 @@
+{
+  "name": "server-consolidation-planner",
+  "version": "1.1.3",
+  "private": true,
+  "description": "From a physical server inventory (CSV) with cores, peak CPU and used RAM, calculate the vCPU, RAM and host count needed for virtualization; flags missing measurements.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://sistem.eretek.com/en/tools/server-consolidation-planner",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
